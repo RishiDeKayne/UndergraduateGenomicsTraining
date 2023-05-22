@@ -17,6 +17,7 @@ Here we want to set up a directory ready for a project.
 10. see if the software `fastqc` is installed
 
 
+## Task 2 - QC our data
 
 In this script we will do the following:
 - make a new directory for our project called 'NewProject'
