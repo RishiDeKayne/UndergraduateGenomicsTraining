@@ -17,9 +17,6 @@ Here we want to set up a directory ready for a project.
 10. see if the software `fastqc` is installed and which version(s) we can use
 
 
-
-
-
 ## Task 2 - QC our data
 
 Here we want to run a QC on our data - is it any good? 
@@ -35,5 +32,7 @@ Here we want to run a QC on our data - is it any good?
 10. add a line that makes an output directory `fastqc_output` (remember - no spaces in file or folder names!)
 11. add the line to run fastqc speficying two threads, our ourput directory, and the fastq file
 
+
 ## Task 3 - Trim our data
 
+Here we want to trim our data using Trimmomatic
