@@ -8,7 +8,7 @@ Here we want to set up a directory ready for a project.
 1. start in the home directory 
 2. make a new directory (with a command that won't override a file that already exists) called `NewProject`
 3. within that directory make three new ones - `Data`, `Analysis`, `Output`
-4. count the number of `fastq` files in the directory `xxxxx`
+4. count the number of `fastq` files in the directory `/hb/groups/kelley_training/rawdata`
 5. make a sample list of these `fastq` files
 6. move the sample list to our `Data` folder
 7. check that the file looks correct after moving it by looking in it
@@ -27,12 +27,13 @@ Here we want to run a QC on our data - is it any good?
 5. add the necessary first line in this file
 6. add the slurm details we need to tell the cluster what kind of job we are running
 7. save the script
-8. make a symbolic link for the fastq file `xxxxx`
-9. add the module load lines from the version we found before
-10. add a line that makes an output directory `fastqc_output` (remember - no spaces in file or folder names!)
-11. add the line to run fastqc speficying two threads, our ourput directory, and the fastq file
+8. make a symbolic link for the fastq file `/hb/groups/kelley_training/rawdata/SST513_1_USR18001329L_HCCVGDMXX_L1_1.fq.gz`
+9. make a symbolic link for the fastq file `/hb/groups/kelley_training/rawdata/SST513_1_USR18001329L_HCCVGDMXX_L1_2.fq.gz`
+10. add the module load lines from the version we found before
+11. add a line that makes an output directory `fastqc_output` (remember - no spaces in file or folder names!)
+12. add the line to run fastqc speficying two threads, our ourput directory, and the fastq file
 
 
 ## Task 3 - Trim our data
 
-Make a script to trim one set of reads `xxxx`
+Make a script to trim one set of reads `/hb/groups/kelley_training/rawdata/SST513_1_USR18001329L_HCCVGDMXX_L1_1.fq.gz` and `/hb/groups/kelley_training/rawdata/SST513_1_USR18001329L_HCCVGDMXX_L1_2.fq.gz`
