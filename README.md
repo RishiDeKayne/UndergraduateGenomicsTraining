@@ -40,18 +40,18 @@ Make a script to trim one set of reads `/hb/groups/kelley_training/rawdata/SST51
 
 
 ## Some handy bash tips:
-`cd`: This command changes the current directory.
-`ls`: This command lists the contents of a directory.
-`ls -lh`: This command lists the contents of a directory including file sizes, permissions, and extra info.
-`pwd`: This command prints the current working directory.
-`mkdir`: This command creates a new directory.
-`mkdir -p`: This command creates a new directory - but only if the directory doesn't already exist.
-`rmdir`: This command removes an empty directory.
-`cp`: This command copies a file or directory.
-`mv`: This command moves a file or directory.
-`rm`: This command removes a file or directory.
-`cat`: This command concatenates and prints files.
-`less`: This command helps us view files.
-`head`: This command prints the first few lines of a file.
-`tail`: This command prints the last few lines of a file.
-`>`: This lets us 'pipe' output from one command into a file.
+`cd`: This command changes the current directory.  
+`ls`: This command lists the contents of a directory.  
+`ls -lh`: This command lists the contents of a directory including file sizes, permissions, and extra info.  
+`pwd`: This command prints the current working directory.  
+`mkdir`: This command creates a new directory.  
+`mkdir -p`: This command creates a new directory - but only if the directory doesn't already exist.  
+`rmdir`: This command removes an empty directory.  
+`cp`: This command copies a file or directory.  
+`mv`: This command moves a file or directory.  
+`rm`: This command removes a file or directory.  
+`cat`: This command concatenates and prints files.  
+`less`: This command helps us view files.  
+`head`: This command prints the first few lines of a file.  
+`tail`: This command prints the last few lines of a file.  
+`>`: This lets us 'pipe' output from one command into a file.  
