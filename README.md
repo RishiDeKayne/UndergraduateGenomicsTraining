@@ -1,6 +1,6 @@
 ## UndergraduateGenomicsTraining
 
-### Task 1
+### <u>Task 1</u>
 
 We want to make a script that will form the preparation steps for a new analysis
 In this script we will do the following:
