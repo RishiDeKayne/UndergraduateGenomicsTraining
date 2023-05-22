@@ -35,4 +35,4 @@ Here we want to run a QC on our data - is it any good?
 
 ## Task 3 - Trim our data
 
-Here we want to trim our data using Trimmomatic
+Make a script to trim one set of reads `xxxx`
